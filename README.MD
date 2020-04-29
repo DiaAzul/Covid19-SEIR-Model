@@ -11,11 +11,12 @@ The latest version of the model is: *Version 3.0*
 The link to the latest version of the model is: [https://insightmaker.com/insight/191052/Infectious-Disease-Model-Version-3-0](https://insightmaker.com/insight/191052/Infectious-Disease-Model-Version-3-0)
 
 The model makes extensive use of vectors within the System Dynamics workflow. Inputing these manually to InsightMaker is challenging for multi-dimensional age-sex arrays. To simplify this an excel workbook was created with assumptions for key variables within the model. This is available within the repository.
+
 [Download Excel workbook](../SEIR%20Model%203.0/IM2d%20Covid%20Model%205-yr%20%20Version3.0.xlsx)
 
 ## KNIME workflows
 
-To support the modelling activity, analytics workflows were developed to download United Kingdom historical cummulative case numbers at Upper Tier Local Authority level from the Pulic Health England website, and then process them to calculate daily rates; smooth the data; estimate the reproduction number; calculate median and upper/ lower quartile levels across the UTLAs. A second workflow was created to process weekly reported deaths from the Office of National Statistics website, and then interpolate daily deaths which could be matched to the daily case data. These workflows are available here [KNIME Covid-19 workflows](https://hub.knime.com/diaazul/spaces/Public/latest/Covid-19/)
+To support the modelling activity, [KNIME](https://www.knime.com/) workflows were developed to download United Kingdom historical cummulative case numbers at Upper Tier Local Authority level from the Pulic Health England website, and then process them to calculate daily rates; smooth the data; estimate the reproduction number; calculate median and upper/ lower quartile levels across the UTLAs. A second workflow was created to process weekly reported deaths from the Office of National Statistics website, and then interpolate daily deaths which could be matched to the daily case data. These workflows are available here [KNIME Covid-19 workflows](https://hub.knime.com/diaazul/spaces/Public/latest/Covid-19/)
 
 
 ## Roadmap
